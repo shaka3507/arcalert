@@ -1,0 +1,1274 @@
+{
+  "inputs": {
+    "/:https://framerusercontent.com/modules/x7HOdSTdbP1RnEaMejXU/vpZPGRa7rRgj9kLmaaH1/BPrjeJKfl.js": {
+      "bytes": 8885,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:button": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/x7HOdSTdbP1RnEaMejXU/vpZPGRa7rRgj9kLmaaH1/BPrjeJKfl.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/x7HOdSTdbP1RnEaMejXU/vpZPGRa7rRgj9kLmaaH1/BPrjeJKfl.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/Yv8SMBn5Tba3GJ2LnH0s/FAeTPMjOU.js": {
+      "bytes": 8468,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:card-container": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/Yv8SMBn5Tba3GJ2LnH0s/FAeTPMjOU.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/Yv8SMBn5Tba3GJ2LnH0s/FAeTPMjOU.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/4V9Pb8fmbzqxIuthLJb7/xsnmqad7f1vVs2wYBp8k/PrKtmyFln.js": {
+      "bytes": 8255,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:modern-card": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/4V9Pb8fmbzqxIuthLJb7/xsnmqad7f1vVs2wYBp8k/PrKtmyFln.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/4V9Pb8fmbzqxIuthLJb7/xsnmqad7f1vVs2wYBp8k/PrKtmyFln.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/8j7oBJJdKIXuwWayezsB/nA1uvbXuoap4kMMDOGFw/Sqt_dt7rY.js": {
+      "bytes": 5885,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:nav": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/8j7oBJJdKIXuwWayezsB/nA1uvbXuoap4kMMDOGFw/Sqt_dt7rY.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/8j7oBJJdKIXuwWayezsB/nA1uvbXuoap4kMMDOGFw/Sqt_dt7rY.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/keZbQ0XO3KCjZKUcdhN6/RQoEOcVLHk8F9aP9LWCA/VPMm9wQkP.js": {
+      "bytes": 5109,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/J4Wp7xWCds50LyTMv8v3/klsgzGk5wFGMiEvMFXf4/amjHDqwca.js": {
+      "bytes": 8284,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/keZbQ0XO3KCjZKUcdhN6/RQoEOcVLHk8F9aP9LWCA/VPMm9wQkP.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/keZbQ0XO3KCjZKUcdhN6/RQoEOcVLHk8F9aP9LWCA/VPMm9wQkP.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:modern-card-two": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/J4Wp7xWCds50LyTMv8v3/klsgzGk5wFGMiEvMFXf4/amjHDqwca.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/J4Wp7xWCds50LyTMv8v3/klsgzGk5wFGMiEvMFXf4/amjHDqwca.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/3wtmEPbVMFwQxX3DtJsw/a5WxnjpVeYgop0B4oyhO/bJQ0ppsyL.js": {
+      "bytes": 4192,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:logo": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/3wtmEPbVMFwQxX3DtJsw/a5WxnjpVeYgop0B4oyhO/bJQ0ppsyL.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/3wtmEPbVMFwQxX3DtJsw/a5WxnjpVeYgop0B4oyhO/bJQ0ppsyL.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/0TNMytOv9pZPyYv4tn6L/IwzqaQIW6y9eFcCJEnx0/dhP82VXL4.js": {
+      "bytes": 7259,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:header": {
+      "bytes": 2475,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/0TNMytOv9pZPyYv4tn6L/IwzqaQIW6y9eFcCJEnx0/dhP82VXL4.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/0TNMytOv9pZPyYv4tn6L/IwzqaQIW6y9eFcCJEnx0/dhP82VXL4.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/SNv5KTO1KzvxozUsWJt5/Gk1lDoqxxwF7FxAHXzhf/eqCELZoIK.js": {
+      "bytes": 6090,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:paragraph-text": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/SNv5KTO1KzvxozUsWJt5/Gk1lDoqxxwF7FxAHXzhf/eqCELZoIK.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/SNv5KTO1KzvxozUsWJt5/Gk1lDoqxxwF7FxAHXzhf/eqCELZoIK.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/7GKnsgdE8F1S91HJkwas/jipLywAFZwWkUhVzg7nv/fnKmpk5M2.js": {
+      "bytes": 5220,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:header-image": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/7GKnsgdE8F1S91HJkwas/jipLywAFZwWkUhVzg7nv/fnKmpk5M2.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/7GKnsgdE8F1S91HJkwas/jipLywAFZwWkUhVzg7nv/fnKmpk5M2.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/KWJXEImegujrDatfR5KR/eP9BkCNstTltUQvW4DzD/NNQWOFoEL.js": {
+      "bytes": 6147,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "/:https://framerusercontent.com/modules/itRvR2PouE7xWcH3IRFr/3w97pU7oigSHvRNrj0nE/sicUlH7pJ.js": {
+      "bytes": 7528,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/KWJXEImegujrDatfR5KR/eP9BkCNstTltUQvW4DzD/NNQWOFoEL.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/KWJXEImegujrDatfR5KR/eP9BkCNstTltUQvW4DzD/NNQWOFoEL.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:link-section": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/itRvR2PouE7xWcH3IRFr/3w97pU7oigSHvRNrj0nE/sicUlH7pJ.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/itRvR2PouE7xWcH3IRFr/3w97pU7oigSHvRNrj0nE/sicUlH7pJ.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "header-image.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:header-image",
+      "inputs": {
+        "virtual:header-image": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/7GKnsgdE8F1S91HJkwas/jipLywAFZwWkUhVzg7nv/fnKmpk5M2.js": {
+          "bytesInOutput": 4209
+        }
+      },
+      "bytes": 5665
+    },
+    "link-section.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:link-section",
+      "inputs": {
+        "virtual:link-section": {
+          "bytesInOutput": 1254
+        },
+        "/:https://framerusercontent.com/modules/itRvR2PouE7xWcH3IRFr/3w97pU7oigSHvRNrj0nE/sicUlH7pJ.js": {
+          "bytesInOutput": 6642
+        },
+        "/:https://framerusercontent.com/modules/KWJXEImegujrDatfR5KR/eP9BkCNstTltUQvW4DzD/NNQWOFoEL.js": {
+          "bytesInOutput": 5086
+        }
+      },
+      "bytes": 13386
+    },
+    "button.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:button",
+      "inputs": {
+        "virtual:button": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/x7HOdSTdbP1RnEaMejXU/vpZPGRa7rRgj9kLmaaH1/BPrjeJKfl.js": {
+          "bytesInOutput": 7952
+        }
+      },
+      "bytes": 9396
+    },
+    "card-container.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:card-container",
+      "inputs": {
+        "virtual:card-container": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/Yv8SMBn5Tba3GJ2LnH0s/FAeTPMjOU.js": {
+          "bytesInOutput": 7364
+        }
+      },
+      "bytes": 8824
+    },
+    "modern-card.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:modern-card",
+      "inputs": {
+        "virtual:modern-card": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/4V9Pb8fmbzqxIuthLJb7/xsnmqad7f1vVs2wYBp8k/PrKtmyFln.js": {
+          "bytesInOutput": 7359
+        }
+      },
+      "bytes": 8813
+    },
+    "nav.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:nav",
+      "inputs": {
+        "virtual:nav": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/8j7oBJJdKIXuwWayezsB/nA1uvbXuoap4kMMDOGFw/Sqt_dt7rY.js": {
+          "bytesInOutput": 4877
+        }
+      },
+      "bytes": 6315
+    },
+    "modern-card-two.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:modern-card-two",
+      "inputs": {
+        "virtual:modern-card-two": {
+          "bytesInOutput": 1254
+        },
+        "/:https://framerusercontent.com/modules/J4Wp7xWCds50LyTMv8v3/klsgzGk5wFGMiEvMFXf4/amjHDqwca.js": {
+          "bytesInOutput": 7358
+        },
+        "/:https://framerusercontent.com/modules/keZbQ0XO3KCjZKUcdhN6/RQoEOcVLHk8F9aP9LWCA/VPMm9wQkP.js": {
+          "bytesInOutput": 4144
+        }
+      },
+      "bytes": 13166
+    },
+    "logo.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:logo",
+      "inputs": {
+        "virtual:logo": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/3wtmEPbVMFwQxX3DtJsw/a5WxnjpVeYgop0B4oyhO/bJQ0ppsyL.js": {
+          "bytesInOutput": 3219
+        }
+      },
+      "bytes": 4659
+    },
+    "header.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:header",
+      "inputs": {
+        "virtual:header": {
+          "bytesInOutput": 1273
+        },
+        "/:https://framerusercontent.com/modules/0TNMytOv9pZPyYv4tn6L/IwzqaQIW6y9eFcCJEnx0/dhP82VXL4.js": {
+          "bytesInOutput": 6385
+        }
+      },
+      "bytes": 7852
+    },
+    "paragraph-text.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:paragraph-text",
+      "inputs": {
+        "virtual:paragraph-text": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/SNv5KTO1KzvxozUsWJt5/Gk1lDoqxxwF7FxAHXzhf/eqCELZoIK.js": {
+          "bytesInOutput": 5062
+        }
+      },
+      "bytes": 6522
+    }
+  }
+}
