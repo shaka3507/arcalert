@@ -13,18 +13,14 @@ export interface Props {
     width?: any
     height?: any
     layoutId?: string
-    "text"?: string
-    "border"?: undefined
-    "click"?: Function
-    "background"?: string
-    "color"?: string
+
 }
 
-const ButtonFramerComponent = (props: Props) => any
+const ContactIconRowFramerComponent = (props: Props) => any
 
 type VariantsMap = Partial<Record<UnframerBreakpoint, Props['variant']>> & { base: Props['variant'] }
 
-ButtonFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
+ContactIconRowFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
 
-export default ButtonFramerComponent
+export default ContactIconRowFramerComponent
 

@@ -13,15 +13,14 @@ export interface Props {
     width?: any
     height?: any
     layoutId?: string
-    "buttonText"?: string
-    "subText"?: string
+    "contactName"?: string
 }
 
-const ModernCardTwoFramerComponent = (props: Props) => any
+const ContactIconFramerComponent = (props: Props) => any
 
 type VariantsMap = Partial<Record<UnframerBreakpoint, Props['variant']>> & { base: Props['variant'] }
 
-ModernCardTwoFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
+ContactIconFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
 
-export default ModernCardTwoFramerComponent
+export default ContactIconFramerComponent
 

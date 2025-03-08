@@ -13,15 +13,18 @@ export interface Props {
     width?: any
     height?: any
     layoutId?: string
+    "variant"?: 'Variant 1' | 'Variant 2'
+    "background"?: string
     "color"?: string
+    "onClick"?: Function
     "text"?: string
 }
 
-const ParagraphTextFramerComponent = (props: Props) => any
+const ModernButtonFramerComponent = (props: Props) => any
 
 type VariantsMap = Partial<Record<UnframerBreakpoint, Props['variant']>> & { base: Props['variant'] }
 
-ParagraphTextFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
+ModernButtonFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
 
-export default ParagraphTextFramerComponent
+export default ModernButtonFramerComponent
 

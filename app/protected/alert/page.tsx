@@ -3,6 +3,10 @@ import ConversationalForm from "@/components/ui/alert/conversational-form";
 import { createClient } from "@/utils/supabase/server";
 import { InfoIcon } from "lucide-react";
 import { redirect } from "next/navigation";
+import HeaderFramerComponent from "@/framer/header";
+import Alert from "@/components/ui/alert";
+
+import ChatInput from "@/components/ui/chat";
 
 import React, { useState } from 'react';
 
@@ -19,9 +23,8 @@ export default async function ProtectedPage() {
   }
 
   return (
-    <div className="flex-1 w-full flex flex-col gap-12">
-        <h2>Create Alert </h2>
-        <ConversationalForm userId={user.id} />
+    <div className="flex-1 flex flex-col gap-2" style={{ width: "400px", overflowX: "hidden"}}>
+        <Alert />
     </div>
   );
 }

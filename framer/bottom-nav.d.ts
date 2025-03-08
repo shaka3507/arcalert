@@ -13,14 +13,16 @@ export interface Props {
     width?: any
     height?: any
     layoutId?: string
-    "image"?: {src: string, srcSet?: string, alt?: string}
+    "homeClick"?: Function
+    "checkClick"?: Function
+    "alertClick"?: Function
 }
 
-const HeaderImageFramerComponent = (props: Props) => any
+const BottomNavFramerComponent = (props: Props) => any
 
 type VariantsMap = Partial<Record<UnframerBreakpoint, Props['variant']>> & { base: Props['variant'] }
 
-HeaderImageFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
+BottomNavFramerComponent.Responsive = (props: Omit<Props, 'variant'> & {variants?: VariantsMap}) => any
 
-export default HeaderImageFramerComponent
+export default BottomNavFramerComponent
 

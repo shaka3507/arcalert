@@ -1,64 +1,7 @@
 {
   "inputs": {
-    "/:https://framerusercontent.com/modules/x7HOdSTdbP1RnEaMejXU/vpZPGRa7rRgj9kLmaaH1/BPrjeJKfl.js": {
-      "bytes": 8885,
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "format": "esm"
-    },
-    "virtual:button": {
-      "bytes": 2452,
-      "imports": [
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "/:https://framerusercontent.com/modules/x7HOdSTdbP1RnEaMejXU/vpZPGRa7rRgj9kLmaaH1/BPrjeJKfl.js",
-          "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/x7HOdSTdbP1RnEaMejXU/vpZPGRa7rRgj9kLmaaH1/BPrjeJKfl.js"
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "format": "esm"
-    },
-    "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/Yv8SMBn5Tba3GJ2LnH0s/FAeTPMjOU.js": {
-      "bytes": 8468,
+    "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/CzAZ6efQjpeKhokR2sNB/FAeTPMjOU.js": {
+      "bytes": 8470,
       "imports": [
         {
           "path": "react/jsx-runtime",
@@ -102,9 +45,9 @@
           "external": true
         },
         {
-          "path": "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/Yv8SMBn5Tba3GJ2LnH0s/FAeTPMjOU.js",
+          "path": "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/CzAZ6efQjpeKhokR2sNB/FAeTPMjOU.js",
           "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/Yv8SMBn5Tba3GJ2LnH0s/FAeTPMjOU.js"
+          "original": "https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/CzAZ6efQjpeKhokR2sNB/FAeTPMjOU.js"
         },
         {
           "path": "unframer",
@@ -119,8 +62,8 @@
       ],
       "format": "esm"
     },
-    "/:https://framerusercontent.com/modules/4V9Pb8fmbzqxIuthLJb7/xsnmqad7f1vVs2wYBp8k/PrKtmyFln.js": {
-      "bytes": 8255,
+    "/:https://framerusercontent.com/modules/tHRczyOfNqOSPVo3H6wQ/K617MfjvHZFsqw3yWZLO/PyNg7eZF4.js": {
+      "bytes": 7787,
       "imports": [
         {
           "path": "react/jsx-runtime",
@@ -141,11 +84,16 @@
           "path": "react",
           "kind": "import-statement",
           "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
         }
       ],
       "format": "esm"
     },
-    "virtual:modern-card": {
+    "virtual:modern-button": {
       "bytes": 2452,
       "imports": [
         {
@@ -159,154 +107,9 @@
           "external": true
         },
         {
-          "path": "/:https://framerusercontent.com/modules/4V9Pb8fmbzqxIuthLJb7/xsnmqad7f1vVs2wYBp8k/PrKtmyFln.js",
+          "path": "/:https://framerusercontent.com/modules/tHRczyOfNqOSPVo3H6wQ/K617MfjvHZFsqw3yWZLO/PyNg7eZF4.js",
           "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/4V9Pb8fmbzqxIuthLJb7/xsnmqad7f1vVs2wYBp8k/PrKtmyFln.js"
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "format": "esm"
-    },
-    "/:https://framerusercontent.com/modules/8j7oBJJdKIXuwWayezsB/nA1uvbXuoap4kMMDOGFw/Sqt_dt7rY.js": {
-      "bytes": 5885,
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "format": "esm"
-    },
-    "virtual:nav": {
-      "bytes": 2452,
-      "imports": [
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "/:https://framerusercontent.com/modules/8j7oBJJdKIXuwWayezsB/nA1uvbXuoap4kMMDOGFw/Sqt_dt7rY.js",
-          "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/8j7oBJJdKIXuwWayezsB/nA1uvbXuoap4kMMDOGFw/Sqt_dt7rY.js"
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "format": "esm"
-    },
-    "/:https://framerusercontent.com/modules/keZbQ0XO3KCjZKUcdhN6/RQoEOcVLHk8F9aP9LWCA/VPMm9wQkP.js": {
-      "bytes": 5109,
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "format": "esm"
-    },
-    "/:https://framerusercontent.com/modules/J4Wp7xWCds50LyTMv8v3/klsgzGk5wFGMiEvMFXf4/amjHDqwca.js": {
-      "bytes": 8284,
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "/:https://framerusercontent.com/modules/keZbQ0XO3KCjZKUcdhN6/RQoEOcVLHk8F9aP9LWCA/VPMm9wQkP.js",
-          "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/keZbQ0XO3KCjZKUcdhN6/RQoEOcVLHk8F9aP9LWCA/VPMm9wQkP.js"
-        }
-      ],
-      "format": "esm"
-    },
-    "virtual:modern-card-two": {
-      "bytes": 2452,
-      "imports": [
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "/:https://framerusercontent.com/modules/J4Wp7xWCds50LyTMv8v3/klsgzGk5wFGMiEvMFXf4/amjHDqwca.js",
-          "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/J4Wp7xWCds50LyTMv8v3/klsgzGk5wFGMiEvMFXf4/amjHDqwca.js"
+          "original": "https://framerusercontent.com/modules/tHRczyOfNqOSPVo3H6wQ/K617MfjvHZFsqw3yWZLO/PyNg7eZF4.js"
         },
         {
           "path": "unframer",
@@ -440,8 +243,8 @@
       ],
       "format": "esm"
     },
-    "/:https://framerusercontent.com/modules/SNv5KTO1KzvxozUsWJt5/Gk1lDoqxxwF7FxAHXzhf/eqCELZoIK.js": {
-      "bytes": 6090,
+    "/:https://framerusercontent.com/modules/80XUea8CfJm5k7nFzkJR/PmiLVlzQWqEQcsREEWpk/rarbAMPHs.js": {
+      "bytes": 10027,
       "imports": [
         {
           "path": "react/jsx-runtime",
@@ -462,11 +265,16 @@
           "path": "react",
           "kind": "import-statement",
           "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
         }
       ],
       "format": "esm"
     },
-    "virtual:paragraph-text": {
+    "virtual:bottom-nav": {
       "bytes": 2452,
       "imports": [
         {
@@ -480,9 +288,9 @@
           "external": true
         },
         {
-          "path": "/:https://framerusercontent.com/modules/SNv5KTO1KzvxozUsWJt5/Gk1lDoqxxwF7FxAHXzhf/eqCELZoIK.js",
+          "path": "/:https://framerusercontent.com/modules/80XUea8CfJm5k7nFzkJR/PmiLVlzQWqEQcsREEWpk/rarbAMPHs.js",
           "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/SNv5KTO1KzvxozUsWJt5/Gk1lDoqxxwF7FxAHXzhf/eqCELZoIK.js"
+          "original": "https://framerusercontent.com/modules/80XUea8CfJm5k7nFzkJR/PmiLVlzQWqEQcsREEWpk/rarbAMPHs.js"
         },
         {
           "path": "unframer",
@@ -497,8 +305,8 @@
       ],
       "format": "esm"
     },
-    "/:https://framerusercontent.com/modules/7GKnsgdE8F1S91HJkwas/jipLywAFZwWkUhVzg7nv/fnKmpk5M2.js": {
-      "bytes": 5220,
+    "/:https://framerusercontent.com/modules/Exu4beRoFwFpg1rJBI70/ArTBrP4jMtR0IZrV5uDT/xFjtBMzU9.js": {
+      "bytes": 5417,
       "imports": [
         {
           "path": "react/jsx-runtime",
@@ -523,7 +331,7 @@
       ],
       "format": "esm"
     },
-    "virtual:header-image": {
+    "virtual:contact-icon": {
       "bytes": 2452,
       "imports": [
         {
@@ -537,9 +345,9 @@
           "external": true
         },
         {
-          "path": "/:https://framerusercontent.com/modules/7GKnsgdE8F1S91HJkwas/jipLywAFZwWkUhVzg7nv/fnKmpk5M2.js",
+          "path": "/:https://framerusercontent.com/modules/Exu4beRoFwFpg1rJBI70/ArTBrP4jMtR0IZrV5uDT/xFjtBMzU9.js",
           "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/7GKnsgdE8F1S91HJkwas/jipLywAFZwWkUhVzg7nv/fnKmpk5M2.js"
+          "original": "https://framerusercontent.com/modules/Exu4beRoFwFpg1rJBI70/ArTBrP4jMtR0IZrV5uDT/xFjtBMzU9.js"
         },
         {
           "path": "unframer",
@@ -554,34 +362,8 @@
       ],
       "format": "esm"
     },
-    "/:https://framerusercontent.com/modules/KWJXEImegujrDatfR5KR/eP9BkCNstTltUQvW4DzD/NNQWOFoEL.js": {
-      "bytes": 6147,
-      "imports": [
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "format": "esm"
-    },
-    "/:https://framerusercontent.com/modules/itRvR2PouE7xWcH3IRFr/3w97pU7oigSHvRNrj0nE/sicUlH7pJ.js": {
-      "bytes": 7528,
+    "/:https://framerusercontent.com/modules/kEk3fXiqyrA1rWdS6S6n/wPxWXcipq8lcbBIT6hlw/qHnBQI6ZK.js": {
+      "bytes": 8843,
       "imports": [
         {
           "path": "react/jsx-runtime",
@@ -604,14 +386,50 @@
           "external": true
         },
         {
-          "path": "/:https://framerusercontent.com/modules/KWJXEImegujrDatfR5KR/eP9BkCNstTltUQvW4DzD/NNQWOFoEL.js",
+          "path": "react",
           "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/KWJXEImegujrDatfR5KR/eP9BkCNstTltUQvW4DzD/NNQWOFoEL.js"
+          "external": true
         }
       ],
       "format": "esm"
     },
-    "virtual:link-section": {
+    "/:https://framerusercontent.com/modules/KVdPhekPIKDp2E34yceu/VpOcXc5gIuQAVaoSUS8M/zQODYrtVu.js": {
+      "bytes": 9248,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/kEk3fXiqyrA1rWdS6S6n/wPxWXcipq8lcbBIT6hlw/qHnBQI6ZK.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/kEk3fXiqyrA1rWdS6S6n/wPxWXcipq8lcbBIT6hlw/qHnBQI6ZK.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:contact-icon-row": {
       "bytes": 2452,
       "imports": [
         {
@@ -625,9 +443,9 @@
           "external": true
         },
         {
-          "path": "/:https://framerusercontent.com/modules/itRvR2PouE7xWcH3IRFr/3w97pU7oigSHvRNrj0nE/sicUlH7pJ.js",
+          "path": "/:https://framerusercontent.com/modules/KVdPhekPIKDp2E34yceu/VpOcXc5gIuQAVaoSUS8M/zQODYrtVu.js",
           "kind": "import-statement",
-          "original": "https://framerusercontent.com/modules/itRvR2PouE7xWcH3IRFr/3w97pU7oigSHvRNrj0nE/sicUlH7pJ.js"
+          "original": "https://framerusercontent.com/modules/KVdPhekPIKDp2E34yceu/VpOcXc5gIuQAVaoSUS8M/zQODYrtVu.js"
         },
         {
           "path": "unframer",
@@ -644,200 +462,6 @@
     }
   },
   "outputs": {
-    "header-image.js": {
-      "imports": [
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "exports": [
-        "default"
-      ],
-      "entryPoint": "virtual:header-image",
-      "inputs": {
-        "virtual:header-image": {
-          "bytesInOutput": 1250
-        },
-        "/:https://framerusercontent.com/modules/7GKnsgdE8F1S91HJkwas/jipLywAFZwWkUhVzg7nv/fnKmpk5M2.js": {
-          "bytesInOutput": 4209
-        }
-      },
-      "bytes": 5665
-    },
-    "link-section.js": {
-      "imports": [
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "exports": [
-        "default"
-      ],
-      "entryPoint": "virtual:link-section",
-      "inputs": {
-        "virtual:link-section": {
-          "bytesInOutput": 1254
-        },
-        "/:https://framerusercontent.com/modules/itRvR2PouE7xWcH3IRFr/3w97pU7oigSHvRNrj0nE/sicUlH7pJ.js": {
-          "bytesInOutput": 6642
-        },
-        "/:https://framerusercontent.com/modules/KWJXEImegujrDatfR5KR/eP9BkCNstTltUQvW4DzD/NNQWOFoEL.js": {
-          "bytesInOutput": 5086
-        }
-      },
-      "bytes": 13386
-    },
-    "button.js": {
-      "imports": [
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "exports": [
-        "default"
-      ],
-      "entryPoint": "virtual:button",
-      "inputs": {
-        "virtual:button": {
-          "bytesInOutput": 1250
-        },
-        "/:https://framerusercontent.com/modules/x7HOdSTdbP1RnEaMejXU/vpZPGRa7rRgj9kLmaaH1/BPrjeJKfl.js": {
-          "bytesInOutput": 7952
-        }
-      },
-      "bytes": 9396
-    },
     "card-container.js": {
       "imports": [
         {
@@ -894,13 +518,13 @@
         "virtual:card-container": {
           "bytesInOutput": 1250
         },
-        "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/Yv8SMBn5Tba3GJ2LnH0s/FAeTPMjOU.js": {
-          "bytesInOutput": 7364
+        "/:https://framerusercontent.com/modules/bxuqfpUzVQRD66xHdK0O/CzAZ6efQjpeKhokR2sNB/FAeTPMjOU.js": {
+          "bytesInOutput": 7366
         }
       },
-      "bytes": 8824
+      "bytes": 8826
     },
-    "modern-card.js": {
+    "modern-button.js": {
       "imports": [
         {
           "path": "react",
@@ -933,6 +557,11 @@
           "external": true
         },
         {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
           "path": "unframer",
           "kind": "import-statement",
           "external": true
@@ -946,153 +575,16 @@
       "exports": [
         "default"
       ],
-      "entryPoint": "virtual:modern-card",
+      "entryPoint": "virtual:modern-button",
       "inputs": {
-        "virtual:modern-card": {
+        "virtual:modern-button": {
           "bytesInOutput": 1250
         },
-        "/:https://framerusercontent.com/modules/4V9Pb8fmbzqxIuthLJb7/xsnmqad7f1vVs2wYBp8k/PrKtmyFln.js": {
-          "bytesInOutput": 7359
+        "/:https://framerusercontent.com/modules/tHRczyOfNqOSPVo3H6wQ/K617MfjvHZFsqw3yWZLO/PyNg7eZF4.js": {
+          "bytesInOutput": 6872
         }
       },
-      "bytes": 8813
-    },
-    "nav.js": {
-      "imports": [
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "exports": [
-        "default"
-      ],
-      "entryPoint": "virtual:nav",
-      "inputs": {
-        "virtual:nav": {
-          "bytesInOutput": 1250
-        },
-        "/:https://framerusercontent.com/modules/8j7oBJJdKIXuwWayezsB/nA1uvbXuoap4kMMDOGFw/Sqt_dt7rY.js": {
-          "bytesInOutput": 4877
-        }
-      },
-      "bytes": 6315
-    },
-    "modern-card-two.js": {
-      "imports": [
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "unframer",
-          "kind": "import-statement",
-          "external": true
-        },
-        {
-          "path": "react/jsx-runtime",
-          "kind": "import-statement",
-          "external": true
-        }
-      ],
-      "exports": [
-        "default"
-      ],
-      "entryPoint": "virtual:modern-card-two",
-      "inputs": {
-        "virtual:modern-card-two": {
-          "bytesInOutput": 1254
-        },
-        "/:https://framerusercontent.com/modules/J4Wp7xWCds50LyTMv8v3/klsgzGk5wFGMiEvMFXf4/amjHDqwca.js": {
-          "bytesInOutput": 7358
-        },
-        "/:https://framerusercontent.com/modules/keZbQ0XO3KCjZKUcdhN6/RQoEOcVLHk8F9aP9LWCA/VPMm9wQkP.js": {
-          "bytesInOutput": 4144
-        }
-      },
-      "bytes": 13166
+      "bytes": 8330
     },
     "logo.js": {
       "imports": [
@@ -1213,7 +705,69 @@
       },
       "bytes": 7852
     },
-    "paragraph-text.js": {
+    "bottom-nav.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:bottom-nav",
+      "inputs": {
+        "virtual:bottom-nav": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/80XUea8CfJm5k7nFzkJR/PmiLVlzQWqEQcsREEWpk/rarbAMPHs.js": {
+          "bytesInOutput": 8966
+        }
+      },
+      "bytes": 10418
+    },
+    "contact-icon.js": {
       "imports": [
         {
           "path": "react",
@@ -1259,16 +813,106 @@
       "exports": [
         "default"
       ],
-      "entryPoint": "virtual:paragraph-text",
+      "entryPoint": "virtual:contact-icon",
       "inputs": {
-        "virtual:paragraph-text": {
+        "virtual:contact-icon": {
           "bytesInOutput": 1250
         },
-        "/:https://framerusercontent.com/modules/SNv5KTO1KzvxozUsWJt5/Gk1lDoqxxwF7FxAHXzhf/eqCELZoIK.js": {
-          "bytesInOutput": 5062
+        "/:https://framerusercontent.com/modules/Exu4beRoFwFpg1rJBI70/ArTBrP4jMtR0IZrV5uDT/xFjtBMzU9.js": {
+          "bytesInOutput": 4402
         }
       },
-      "bytes": 6522
+      "bytes": 5858
+    },
+    "contact-icon-row.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:contact-icon-row",
+      "inputs": {
+        "virtual:contact-icon-row": {
+          "bytesInOutput": 1254
+        },
+        "/:https://framerusercontent.com/modules/KVdPhekPIKDp2E34yceu/VpOcXc5gIuQAVaoSUS8M/zQODYrtVu.js": {
+          "bytesInOutput": 8402
+        },
+        "/:https://framerusercontent.com/modules/kEk3fXiqyrA1rWdS6S6n/wPxWXcipq8lcbBIT6hlw/qHnBQI6ZK.js": {
+          "bytesInOutput": 7903
+        }
+      },
+      "bytes": 17971
     }
   }
 }
