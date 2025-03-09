@@ -2,7 +2,7 @@ import React from "react";
 import "./contact-list.css";
 import HeaderFramerComponent from "@/framer/header";
 
-const ContactsList = ({ contacts }) => {
+const ContactsList = ({ contacts }: { contacts: any }) => {
     console.log("contacts", contacts)
 
   return (
@@ -10,7 +10,7 @@ const ContactsList = ({ contacts }) => {
       <HeaderFramerComponent title="emergency contacts" variant="H2" />
       <div className="contacts-container" style={{ width: "400px" }}>
         <div className="contacts-scroll">
-          {contacts.map((contact, index) => (
+          {contacts.map((contact: any, index: number) => (
             <div key={index} className="contact-item">
               <div
                 className="contact-image"

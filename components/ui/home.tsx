@@ -1,6 +1,5 @@
 "use client";
 import CardContainerFramerComponent from "@/framer/card-container";
-import WeatherData from "@/components/ui/weather-data";
 
 export default function Home() {
   return (
@@ -29,7 +28,6 @@ export default function Home() {
         description="heat waves, polar vertexes, tornadoes.."
         fontColor="black"
       />
-      <WeatherData />
     </>
   );
 }

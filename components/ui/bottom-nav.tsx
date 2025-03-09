@@ -15,7 +15,7 @@ const BottomNavBar = () => {
     );
   };
 
-const NavItem = ({ href, label, Icon }) => (
+const NavItem = ({ href, label, Icon }: { href: string, label: string, Icon: any}) => (
   <a href={href} className="flex flex-col items-center text-white-700 hover:text-blue-500">
     <Icon size={28} />
     <span className="text-md">{label}</span>

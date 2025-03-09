@@ -1,173 +1,61 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, ChangeEvent } from "react";
 import HeaderFramerComponent from "@/framer/header";
 import ModernButtonFramerComponent from "@/framer/modern-button";
 import { X } from "lucide-react";
 
-const crisisItems = [
-  {
-    id: 1,
-    event: "Blizzard",
-    itemType: "Thermal Blanket",
-    description: "To preserve body heat.",
-  },
-  {
-    id: 2,
-    event: "Blizzard",
-    itemType: "Fire Starter",
-    description: "Fire-starting tools for warmth.",
-  },
-  {
-    id: 3,
-    event: "Blizzard",
-    itemType: "Hand warmers",
-    description: "Warm clothing for extreme cold.",
-  },
-  {
-    id: 26,
-    event: "Blizzard",
-    itemType: "Subzero Tents",
-    description: "Tents for extreme cold.",
-  },
-  {
-    id: 4,
-    event: "Blizzard",
-    itemType: "Portable Heater",
-    description: "Battery-powered or propane heater.",
-  },
-  {
-    id: 5,
-    event: "Blizzard",
-    itemType: "Snow Shovel",
-    description: "For clearing paths and escape routes.",
-  },
-  {
-    id: 6,
-    event: "Hurricane",
-    itemType: "First Aid Kit",
-    description: "Basic first aid supplies to treat minor injuries.",
-  },
-  {
-    id: 7,
-    event: "Hurricane",
-    itemType: "Water Bottles",
-    description: "Fresh water to stay hydrated.",
-  },
-  {
-    id: 8,
-    event: "Hurricane",
-    itemType: "Non-perishable Food",
-    description: "Canned goods and dry food.",
-  },
-  {
-    id: 9,
-    event: "Hurricane",
-    itemType: "Flashlight",
-    description: "Battery-powered light source.",
-  },
-  {
-    id: 10,
-    event: "Hurricane",
-    itemType: "Batteries",
-    description: "Extra batteries for devices.",
-  },
-  {
-    id: 11,
-    event: "Flood",
-    itemType: "Sandbags",
-    description: "To prevent water entry.",
-  },
-  {
-    id: 12,
-    event: "Flood",
-    itemType: "Waterproof Clothing",
-    description: "Jackets and pants to stay dry.",
-  },
-  {
-    id: 13,
-    event: "Flood",
-    itemType: "Portable Water Filter",
-    description: "Device to purify water.",
-  },
-  {
-    id: 14,
-    event: "Flood",
-    itemType: "Emergency Contact List",
-    description: "Family and emergency services contacts.",
-  },
-  {
-    id: 15,
-    event: "Flood",
-    itemType: "Evacuation Plan",
-    description: "Written plan for evacuation.",
-  },
-  {
-    id: 16,
-    event: "Earthquake",
-    itemType: "Hard Hat",
-    description: "Protective gear for falling debris.",
-  },
-  {
-    id: 17,
-    event: "Earthquake",
-    itemType: "Emergency Whistle",
-    description: "To signal for help.",
-  },
-  {
-    id: 18,
-    event: "Earthquake",
-    itemType: "Sturdy Shoes",
-    description: "Durable footwear for debris.",
-  },
-  {
-    id: 19,
-    event: "Earthquake",
-    itemType: "Dust Mask",
-    description: "Protective mask against dust and debris.",
-  },
-  {
-    id: 20,
-    event: "Earthquake",
-    itemType: "Non-Perishable Snacks",
-    description: "Energy bars and snacks.",
-  },
-  {
-    id: 21,
-    event: "Tornado",
-    itemType: "Radio",
-    description: "Battery-powered or hand-crank radio.",
-  },
-  {
-    id: 22,
-    event: "Tornado",
-    itemType: "Sturdy Shelter",
-    description: "Basement or storm shelter.",
-  },
-  {
-    id: 23,
-    event: "Tornado",
-    itemType: "Safety Goggles",
-    description: "Protective eyewear.",
-  },
-  {
-    id: 24,
-    event: "Tornado",
-    itemType: "Personal Documents",
-    description: "Copies of IDs and insurance.",
-  },
-  {
-    id: 25,
-    event: "Tornado",
-    itemType: "Multi-tool",
-    description: "All-purpose tool for various tasks.",
-  },
+// Define types or interfaces
+interface CrisisItem {
+  id: number;
+  event: string;
+  itemType: string;
+  description: string;
+}
+
+interface ModalProps {
+  showModal: boolean;
+  closeModal: () => void;
+}
+
+interface CrisisChecklistProps {
+  event: string;
+}
+
+// crisisItems with explicit type
+const crisisItems: CrisisItem[] = [
+  { id: 1, event: "Blizzard", itemType: "Thermal Blanket", description: "To preserve body heat." },
+  { id: 2, event: "Blizzard", itemType: "Fire Starter", description: "Fire-starting tools for warmth." },
+  { id: 3, event: "Blizzard", itemType: "Hand warmers", description: "Warm clothing for extreme cold." },
+  { id: 26, event: "Blizzard", itemType: "Subzero Tents", description: "Tents for extreme cold." },
+  { id: 4, event: "Blizzard", itemType: "Portable Heater", description: "Battery-powered or propane heater." },
+  { id: 5, event: "Blizzard", itemType: "Snow Shovel", description: "For clearing paths and escape routes." },
+  { id: 6, event: "Hurricane", itemType: "First Aid Kit", description: "Basic first aid supplies to treat minor injuries." },
+  { id: 7, event: "Hurricane", itemType: "Water Bottles", description: "Fresh water to stay hydrated." },
+  { id: 8, event: "Hurricane", itemType: "Non-perishable Food", description: "Canned goods and dry food." },
+  { id: 9, event: "Hurricane", itemType: "Flashlight", description: "Battery-powered light source." },
+  { id: 10, event: "Hurricane", itemType: "Batteries", description: "Extra batteries for devices." },
+  { id: 11, event: "Flood", itemType: "Sandbags", description: "To prevent water entry." },
+  { id: 12, event: "Flood", itemType: "Waterproof Clothing", description: "Jackets and pants to stay dry." },
+  { id: 13, event: "Flood", itemType: "Portable Water Filter", description: "Device to purify water." },
+  { id: 14, event: "Flood", itemType: "Emergency Contact List", description: "Family and emergency services contacts." },
+  { id: 15, event: "Flood", itemType: "Evacuation Plan", description: "Written plan for evacuation." },
+  { id: 16, event: "Earthquake", itemType: "Hard Hat", description: "Protective gear for falling debris." },
+  { id: 17, event: "Earthquake", itemType: "Emergency Whistle", description: "To signal for help." },
+  { id: 18, event: "Earthquake", itemType: "Sturdy Shoes", description: "Durable footwear for debris." },
+  { id: 19, event: "Earthquake", itemType: "Dust Mask", description: "Protective mask against dust and debris." },
+  { id: 20, event: "Earthquake", itemType: "Non-Perishable Snacks", description: "Energy bars and snacks." },
+  { id: 21, event: "Tornado", itemType: "Radio", description: "Battery-powered or hand-crank radio." },
+  { id: 22, event: "Tornado", itemType: "Sturdy Shelter", description: "Basement or storm shelter." },
+  { id: 23, event: "Tornado", itemType: "Safety Goggles", description: "Protective eyewear." },
+  { id: 24, event: "Tornado", itemType: "Personal Documents", description: "Copies of IDs and insurance." },
+  { id: 25, event: "Tornado", itemType: "Multi-tool", description: "All-purpose tool for various tasks." },
 ];
 
-const Modal = ({ showModal, closeModal }) => {
-  const [inputValue, setInputValue] = useState("");
+const Modal: React.FC<ModalProps> = ({ showModal, closeModal }) => {
+  const [inputValue, setInputValue] = useState<string>("");
 
-  const handleInputChange = (event) => {
+  const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
   };
 
@@ -193,7 +81,7 @@ const Modal = ({ showModal, closeModal }) => {
             <button
               className="px-12 py-2 bg-cyan-500 text-white mt-4"
               onClick={() => {
-                closeModal()
+                closeModal();
                 console.log("new page...");
               }}
             >
@@ -210,14 +98,14 @@ const Modal = ({ showModal, closeModal }) => {
   );
 };
 
-function CrisisChecklist({ event }) {
-  const [showModal, setShowModal] = useState(false);
-  const [selectedItems, setSelectedItems] = useState({});
-  const [finalList, setFinalList] = useState([]);
+const CrisisChecklist: React.FC<CrisisChecklistProps> = ({ event }) => {
+  const [showModal, setShowModal] = useState<boolean>(false);
+  const [selectedItems, setSelectedItems] = useState<Record<number, { quantity: number }>>({});
+  const [finalList, setFinalList] = useState<{ itemType: string, quantity: number }[]>([]);
 
   const toggleModal = () => setShowModal(!showModal);
 
-  const handleQuantityChange = (id, delta) => {
+  const handleQuantityChange = (id: number, delta: number) => {
     setSelectedItems((prev) => {
       const newQuantity = Math.max(0, (prev[id]?.quantity || 0) + delta);
       return {
@@ -283,6 +171,6 @@ function CrisisChecklist({ event }) {
       </button>
     </div>
   );
-}
+};
 
 export default CrisisChecklist;

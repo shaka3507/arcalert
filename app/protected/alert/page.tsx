@@ -1,5 +1,4 @@
 import FetchDataSteps from "@/components/tutorial/fetch-data-steps";
-import ConversationalForm from "@/components/ui/alert/conversational-form";
 import { createClient } from "@/utils/supabase/server";
 import { InfoIcon } from "lucide-react";
 import { redirect } from "next/navigation";
