@@ -3,12 +3,10 @@ import ConversationalForm from "@/components/ui/alert/conversational-form";
 import { createClient } from "@/utils/supabase/server";
 import { InfoIcon } from "lucide-react";
 import { redirect } from "next/navigation";
+
 import HeaderFramerComponent from "@/framer/header";
 import Alert from "@/components/ui/alert";
-
 import ChatInput from "@/components/ui/chat";
-
-import React, { useState } from 'react';
 
 
 export default async function ProtectedPage() {

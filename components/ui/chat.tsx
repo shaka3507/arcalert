@@ -1,14 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
-import useLocalStorage from "../hooks/useLocalStorage";
-import LoadingScreen from "./loading-screen";
+import React, { useState, useRef } from "react";
+import { CSSTransition } from "react-transition-group";
 import CrisisChecklist from "./check-list";
-import HeaderFramerComponent from "@/framer/header";
 
 const Chat = () => {
   const [inputValue, setInputValue] = useState("");
-  const [crisis, setCrisis] = useLocalStorage("crisis", "");
+  const [crisis, setCrisis] = useState("");
+  const nodeRef = useRef(null);  // Use useRef for node reference
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
@@ -23,7 +22,7 @@ const Chat = () => {
   return (
     <>
       {!crisis && (
-        <div className="max-w-md mx-auto my-8 p-4 border rounded-lg shadow-md flex items-center">
+        <div className="max-w-md mx-auto my-8 p-4 border shadow-md flex items-center">
           <input
             type="text"
             placeholder="tornado..."

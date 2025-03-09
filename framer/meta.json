@@ -124,6 +124,68 @@
       ],
       "format": "esm"
     },
+    "/:https://framerusercontent.com/modules/LSVsjWmNDWVQB32INGyL/rDOZD1mSfxKWGjlmw5bD/QraxCxeQX.js": {
+      "bytes": 9480,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "virtual:weather-card": {
+      "bytes": 2452,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/:https://framerusercontent.com/modules/LSVsjWmNDWVQB32INGyL/rDOZD1mSfxKWGjlmw5bD/QraxCxeQX.js",
+          "kind": "import-statement",
+          "original": "https://framerusercontent.com/modules/LSVsjWmNDWVQB32INGyL/rDOZD1mSfxKWGjlmw5bD/QraxCxeQX.js"
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
     "/:https://framerusercontent.com/modules/3wtmEPbVMFwQxX3DtJsw/a5WxnjpVeYgop0B4oyhO/bJQ0ppsyL.js": {
       "bytes": 4192,
       "imports": [
@@ -585,6 +647,68 @@
         }
       },
       "bytes": 8330
+    },
+    "weather-card.js": {
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "unframer",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "virtual:weather-card",
+      "inputs": {
+        "virtual:weather-card": {
+          "bytesInOutput": 1250
+        },
+        "/:https://framerusercontent.com/modules/LSVsjWmNDWVQB32INGyL/rDOZD1mSfxKWGjlmw5bD/QraxCxeQX.js": {
+          "bytesInOutput": 8403
+        }
+      },
+      "bytes": 9859
     },
     "logo.js": {
       "imports": [
