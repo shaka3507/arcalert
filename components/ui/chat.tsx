@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import { CSSTransition } from "react-transition-group";
 import CrisisChecklist from "./check-list";
 
 const Chat = () => {
@@ -9,11 +8,11 @@ const Chat = () => {
   const [crisis, setCrisis] = useState("");
   const nodeRef = useRef(null);  // Use useRef for node reference
 
-  const handleInputChange = (event) => {
+  const handleInputChange = (event: any) => {
     setInputValue(event.target.value);
   };
 
-  const handleKeyPress = (event) => {
+  const handleKeyPress = (event: any) => {
     if (event.key === "Enter") {
       setCrisis(inputValue);
     }

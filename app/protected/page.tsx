@@ -5,7 +5,6 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import CardContainerFramerComponent from "@/framer/card-container";
 import HeaderFramerComponent from "@/framer/header";
-import WeatherData from "@/components/ui/weather-data";
 import Ticker from '@/components/ui/ticker';
 import ContactsList from "@/components/ui/contacts";
 
